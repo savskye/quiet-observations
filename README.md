@@ -1,8 +1,8 @@
+🔗 [View Quiet Observations Live](https://savskye.github.io/quiet-observations/)
+
 # quiet-observations
 
 **Quiet Observations** is a personal blog that's still in the works as this is my first project, but it is where I write thoughtful essays on life, society, and the spaces in between. This project is an ongoing exploration of critical thought, aimed at engaging with the complexity of the modern world.
-
-🔗 [View Quiet Observations Live](https://savskye.github.io/quiet-observations/)
 
 ## Table of Contents
 - [Introduction](#introduction)
