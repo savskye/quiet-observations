@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+   <meta charset="UTF-8">
   <title>Aesthetics & Ideology</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <header>
-    <h1 class="logo">Quiet Observations</h1>
-    <p style="color:#90caa0; font-style: italic;">Pretty Words, Empty Politics.</p>
+   <header>
+     <h1 class="logo">Quiet Observations</h1>
+     <p style="color:#90caa0; font-style: italic;">Pretty Words, Empty Politics.</p>
     <nav>
         <a href="../index.html">Home</a>|
             <a href="../about.html">About</a>|
