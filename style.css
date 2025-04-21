@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #0f1f1b;
+    color: #cce3d0;
+    padding: 40px;
+}
+
+header {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #2d4a42;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #d8f5d0;
+}
+
+.logo {
+    font-family: "Times New Roman", serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    color: #c6f5d0;
+    margin-bottom: 0.3rem;
+    text-transform: capitalize;
+    font-style: italic;
+    border-bottom: 1px solid #c6f5d0;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+  }
+
+nav a {
+    color: #90caa0;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 700px;
+}
+
+h2 {
+    color: #b0e3b0;
+}
+
+a {
+    color: #a0e0a0;
+}
+
+a:hover {
+    color: #c5f5c5;
+}
+
+.search-section {
+    text-align: left;
+    margin: 1rem auto 2rem;
+    max-width: 700px;
+    padding-left: 2rem;
+  }
+  #searchInput {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #4a7a5b;
+    background-color: #1c2e25;
+    color: #d0f0d0;
+}
+
+.featured-post h2 a {
+    color: #a0e8b0;
+    text-decoration: none;
+    font-size: 1.6rem;
+ }
+
+.featured-post h2 a:hover {
+    text-decoration: underline;
+}
+
+.featured-post p {
+    font-size: 1rem;
+    color: #d4ecd9;
+}
+
+.post-archive ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post-archive li {
+    margin: 1rem 0;
+}
+
+.post-archive a {
+    text-decoration: none;
+    color: #d0f0d0;
+    font-weight: bold;
+}
+
+.post-archive a:hover {
+    text-decoration: underline;
+}
+
+.about-blurb {
+    font-size: 0.95rem;
+    color: #c0dec0;
+    border-top: 1px solid #3a5f4a;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #668077;
+    border-top: 1px solid #2d4a42;
+    padding-top: 10px;
+}

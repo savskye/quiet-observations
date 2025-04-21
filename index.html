@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiet Observations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Quiet Observations</h1>
+        <p style="color:#90caa0; font-style: italic;">Thoughtful essays on life, society, and the spaces in between.</p>
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="about.html">About</a>|
+            <a href="posts/pretty-words-empty-politics.html">Latest Post</a>|
+            <a href="posts.html">Archive</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-post">
+            <h2><a href="posts/pretty-words-empty-politics.html">Pretty Words, Empty Politics</a></h2>
+            <p>A short reflection on curated aesthetics and ideology.</p>
+          </section>
+      
+          <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Search posts..." />
+          </section>
+
+          <section class="post-archive">
+            <h2>All Posts</h2>
+            <ul>
+              <li><a href="posts/pretty-words-empty-politics.html">Pretty Words, Empty Politics</a></li>
+              <li><a href="posts/digital-minimalism.html">Digital Minimalism and Class</a></li>
+              <li><a href="posts/first-post.html">First Post</a></li>
+            </ul>
+          </section>
+      
+          <section class="about-blurb">
+            <p>This site is a small attempt to pause, notice, and write from in a quiet space. It's not about hot takes—it's about resonance.</p>
+          </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Savannah</p>
+    </footer>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const posts = document.querySelectorAll('.post-archive li');
+      
+        searchInput.addEventListener('input', function () {
+          const query = this.value.toLowerCase();
+      
+          posts.forEach(post => {
+            const text = post.textContent.toLowerCase();
+            post.style.display = text.includes(query) ? 'list-item' : 'none';
+          });
+        });
+      </script>
+</body>
+</html>
